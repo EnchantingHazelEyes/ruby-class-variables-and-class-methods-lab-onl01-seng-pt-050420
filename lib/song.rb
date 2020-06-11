@@ -20,7 +20,7 @@ class Song
     @@genre << genre
   end
   
-  def self.artists(artist)
+  def type.artists(artist)
     @@artist << artist
   end
   
