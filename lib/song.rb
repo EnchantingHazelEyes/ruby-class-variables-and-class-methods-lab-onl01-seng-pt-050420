@@ -17,7 +17,7 @@ class Song
   end
 
   def self.genres
-    @@genre << genre
+    @@genre[genre] << genre
   end
   
   def self.artists
