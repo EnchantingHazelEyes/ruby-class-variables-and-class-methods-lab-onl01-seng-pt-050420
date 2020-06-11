@@ -16,11 +16,11 @@ class Song
     @@count 
   end
 
-  def self_genres(genre)
+  def genres(genre)
     @@genre << genre
   end
   
-  def self_artists(artist)
+  def artists(artist)
     @@artist << artist
   end
   
