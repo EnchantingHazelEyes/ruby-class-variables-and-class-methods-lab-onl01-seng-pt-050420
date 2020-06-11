@@ -14,6 +14,13 @@ class Song
     @@count 
   end
 
+  def artist_name
+    @@artist
+  end
+  
+  def genre_type
+    @@genre
+  end
 
 
 end
