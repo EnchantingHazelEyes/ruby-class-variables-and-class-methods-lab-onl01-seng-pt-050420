@@ -14,14 +14,15 @@ class Song
     @@count 
   end
 
-  def artist_name
+  def self.genre
+    genre_type = {}
+    genre_type << @@genre
+  end
+  
+  def self.artist
     @@artist
   end
   
-  def genre_type
-    @@genre
-  end
-
 
 end
   
