@@ -17,11 +17,11 @@ class Song
   end
 
   def self.genre
-    @@genre << @genre
+    @@genre << genre
   end
   
   def self.artist
-    @@artist << @artist
+    @@artist << artist
   end
   
 
