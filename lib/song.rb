@@ -15,11 +15,11 @@ class Song
   end
 
   def artist_name
-    @@artists
+    @@artist
   end
   
   def genre_type
-    @@genres
+    @@genre
   end
 
 
